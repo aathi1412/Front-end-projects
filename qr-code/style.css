@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(213, 225, 239);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+
+
+.qr-code{
+    max-width: 240px;
+    width: 100%;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+#img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.text{
+    margin: 10px 17px;
+}
+.text .name{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+}
+.text1{
+   margin: 10px 10px 15px;
+   
+}
+.text1 .name1{
+    text-align: center;
+    font-weight: 400;
+    color: gray;
+    font-size: 11px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
